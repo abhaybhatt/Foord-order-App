@@ -1,0 +1,73 @@
+
+.products{
+  /* width: 180px; */
+  /* height: 150px; */
+  position: relative;
+  margin: 10px;
+  /* border: 2px solid black; */
+}
+
+.img{
+  width: 11.5rem;
+  height: 8rem;
+  /* margin: 10px; */
+}
+.rate{
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    background-color: black;
+    width: 60px;
+    padding: 2px 3px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    z-index: 3;
+}
+
+.star{
+    color: yellow;
+}
+
+.mark{
+  position: absolute;
+  right: 3%;
+  top:3%;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    z-index: 4;
+    cursor: pointer;
+
+}
+
+.heart{
+    text-align: center;
+    padding: 4px;
+    color: rgb(190, 189, 189);
+}
+.text{
+position: absolute;
+bottom: 15%;
+left: 3%;
+font-size: 16px;
+font-weight: 400;
+}
+.weight{
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: gray;     
+}
+
+.price{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-weight: 700;
+}
+

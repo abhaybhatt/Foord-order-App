@@ -1,0 +1,42 @@
+.ment{
+    border: 1px solid rgb(97, 248, 185);
+    border-radius: 50px;
+    width: 2.4rem;
+    /* padding:0px 2px; */
+    margin-bottom: 2rem;
+}
+
+.num{
+    padding: 0px 6px;
+}
+
+.minus{
+    padding-left: 7px;
+}
+
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 170%;
+}
+
+.name{
+    font-size: 13px;
+   font-weight: 600; 
+}
+
+.gram{
+    font-size: 13px;
+    color: gray;
+}
+
+.decimal{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.close{
+    color: rgb(187, 185, 185);
+}
+
